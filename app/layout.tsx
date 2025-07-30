@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Oxalya - Vous cherchez Oxelya ?",
   description:
-    "Oxalya.xyz vous redirige vers Oxelya, votre vrai partenaire digital. Beaucoup confondent Oxalya et Oxelya — ne faites pas l'erreur, découvrez nos services officiels.",
+    "Oxalya.xyz vous redirige vers Oxelya, votre vrai partenaire digital. Beaucoup confondent Oxalya et Oxelya — ne faites pas l'erreur.",
   openGraph: {
     title: "Oxalya ou Oxelya ?",
     description:
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     siteName: "Oxelya",
     images: [
       {
-        url: "https://oxalya.xyz/og-image.png", // Remplace avec ton image OG
+        url: "https://www.oxalya.xyz/og-image.png", // Remplace avec ton image OG
         width: 1200,
         height: 630,
         alt: "Oxelya Logo",
@@ -30,11 +30,11 @@ export const metadata: Metadata = {
       "Confusion entre Oxalya et Oxelya ? Cette page vous aide à trouver le bon site : oxelya.com.",
     site: "@oxelya", // Remplace avec ton handle Twitter si dispo
     creator: "@oxelya",
-    images: ["https://oxalya.xyz/og-image.png"],
+    images: ["https://www.oxalya.xyz/og-image.png"],
   },
-  metadataBase: new URL("https://oxalya.xyz"),
+  metadataBase: new URL("https://www.oxalya.xyz"),
   alternates: {
-    canonical: "https://oxalya.xyz",
+    canonical: "https://www.oxalya.xyz",
   },
   icons: {
     icon: "/favicon.ico",
@@ -61,14 +61,14 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               name: "Oxalya",
-              url: "https://oxalya.xyz",
+              url: "https://www.oxalya.xyz",
               description:
-                "Oxalya redirige vers Oxelya, le vrai site officiel. Beaucoup de personnes confondent Oxalya avec Oxelya, découvrez la différence.",
-              sameAs: ["https://oxelya.com"],
+                "Oxalya redirige vers Oxelya, le vrai site officiel. Beaucoup de personnes confondent Oxalya avec Oxelya.",
+              sameAs: ["https://www.oxelya.com"],
               publisher: {
                 "@type": "Organization",
                 name: "Oxelya",
-                url: "https://oxelya.com",
+                url: "https://www.oxelya.com",
               },
             }),
           }}

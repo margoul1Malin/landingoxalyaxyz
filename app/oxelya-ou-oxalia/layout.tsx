@@ -2,15 +2,15 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Oxelya ou Oxalia",
-  description: "Oxelya ou Oxalia est un projet de création de contenu pour la marque Oxalya ou Oxalia. Il s'agit d'un projet de création de contenu pour la marque Oxalya ou Oxalia.",
+  description: "Oxelya est une agence de développement web et ce n'est pas Oxalya ou Oxalia.",
   openGraph: {
     title: "Oxelya ou Oxalia",
-    description: "Oxelya ou Oxalia est un projet de création de contenu pour la marque Oxalya ou Oxalia. Il s'agit d'un projet de création de contenu pour la marque Oxalya ou Oxalia.",
-    url: "https://oxalya.xyz/oxelya-ou-oxalia",
+    description: "Oxelya est une agence de développement web et ce n'est pas Oxalya ou Oxalia.",
+    url: "https://www.oxalya.xyz/oxelya-ou-oxalia",
     siteName: "Oxelya ou Oxalia",
     images: [
       {
-        url: "https://oxalya.xyz/oxelya-ou-oxalia/og-image.png",
+        url: "https://www.oxalya.xyz/oxelya-ou-oxalia/og-image.png",
         width: 1200,
         height: 630,
         alt: "Oxelya ou Oxalia",
@@ -22,21 +22,21 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Oxelya ou Oxalia",
-    description: "Oxelya ou Oxalia est un projet de création de contenu pour la marque Oxalya ou Oxalia. Il s'agit d'un projet de création de contenu pour la marque Oxalya ou Oxalia.",
-    site: "https://oxalya.xyz/oxelya-ou-oxalia",
+    description: "Oxelya est une agence de développement web et ce n'est pas Oxalya ou Oxalia.",
+    site: "https://www.oxalya.xyz/oxelya-ou-oxalia",
     creator: "Oxelya ou Oxalia",
     images: [
       {
-        url: "https://oxalya.xyz/oxelya-ou-oxalia/og-image.png",
+        url: "https://www.oxalya.xyz/oxelya-ou-oxalia/og-image.png",
         width: 1200,
         height: 630,
         alt: "Oxelya ou Oxalia",
       },
     ],
   },
-  metadataBase: new URL("https://oxalya.xyz/oxelya-ou-oxalia"),
+  metadataBase: new URL("https://www.oxalya.xyz/oxelya-ou-oxalia"),
   alternates: {
-    canonical: "https://oxalya.xyz/oxelya-ou-oxalia",
+    canonical: "https://www.oxalya.xyz/oxelya-ou-oxalia",
   },
   icons: {
     icon: "/favicon.ico",

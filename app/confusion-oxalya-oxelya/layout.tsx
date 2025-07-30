@@ -2,15 +2,15 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Confusion Oxalya ou Oxelya",
-  description: "Confusion Oxalya ou Oxelya est un projet de création de contenu pour la marque Oxalya ou Oxelya. Il s'agit d'un projet de création de contenu pour la marque Oxalya ou Oxelya.",
+  description: "Oxelya est une agence de développement web et ce n'est pas Oxalya ou Oxalia ni Xelya.",
   openGraph: {
     title: "Confusion Oxalya ou Oxelya",
-    description: "Confusion Oxalya ou Oxelya est un projet de création de contenu pour la marque Oxalya ou Oxelya. Il s'agit d'un projet de création de contenu pour la marque Oxalya ou Oxelya.",
-    url: "https://oxalya.xyz/confusion-oxalya-oxelya",
+    description: "Oxelya est une agence de développement web et ce n'est pas Oxalya ou Oxalia ni Xelya.",
+    url: "https://www.oxalya.xyz/confusion-oxalya-oxelya",
     siteName: "Confusion Oxalya ou Oxelya",
     images: [
       {
-        url: "https://oxalya.xyz/confusion-oxalya-oxelya/og-image.png",
+        url: "https://www.oxalya.xyz/confusion-oxalya-oxelya/og-image.png",
         width: 1200,
         height: 630,
         alt: "Confusion Oxalya ou Oxelya",
@@ -22,21 +22,21 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Confusion Oxalya ou Oxelya",
-    description: "Confusion Oxalya ou Oxelya est un projet de création de contenu pour la marque Oxalya ou Oxelya. Il s'agit d'un projet de création de contenu pour la marque Oxalya ou Oxelya.",
-    site: "https://oxalya.xyz/confusion-oxalya-oxelya",
+    description: "Oxelya est une agence de développement web et ce n'est pas Oxalya ou Oxalia ni Xelya.",
+    site: "https://www.oxalya.xyz/confusion-oxalya-oxelya",
     creator: "Confusion Oxalya ou Oxelya",
     images: [
       {
-        url: "https://oxalya.xyz/confusion-oxalya-oxelya/og-image.png",
+        url: "https://www.oxalya.xyz/confusion-oxalya-oxelya/og-image.png",
         width: 1200,
         height: 630,
         alt: "Confusion Oxalya ou Oxelya",
       },
     ],
   },
-  metadataBase: new URL("https://oxalya.xyz/confusion-oxalya-oxelya"),
+  metadataBase: new URL("https://www.oxalya.xyz/confusion-oxalya-oxelya"),
   alternates: {
-    canonical: "https://oxalya.xyz/confusion-oxalya-oxelya",
+    canonical: "https://www.oxalya.xyz/confusion-oxalya-oxelya",
   },
   icons: {
     icon: "/favicon.ico",

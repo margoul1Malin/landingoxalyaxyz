@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Oxalya Site Officiel",
     description: "Oxalya Site Officiel est le site officiel de la marque Oxalya. Il s'agit d'un site officiel de la marque Oxalya.",
-    url: "https://oxalya.xyz/oxalya-site-officiel",
+    url: "https://www.oxalya.xyz/oxalya-site-officiel",
     siteName: "Oxalya Site Officiel",
     images: [
       {
-        url: "https://oxalya.xyz/oxelya-site-officiel/og-image.png",
+        url: "https://www.oxalya.xyz/oxelya-site-officiel/og-image.png",
         width: 1200,
         height: 630,
         alt: "Oxelya Site Officiel",
@@ -23,20 +23,20 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Oxelya Site Officiel",
     description: "Oxelya Site Officiel est le site officiel de la marque Oxelya. Il s'agit d'un site officiel de la marque Oxelya.",
-    site: "https://oxalya.xyz/oxelya-site-officiel",
+    site: "https://www.oxalya.xyz/oxelya-site-officiel",
     creator: "Oxelya Site Officiel",
     images: [
       {
-        url: "https://oxalya.xyz/oxelya-site-officiel/og-image.png",
+        url: "https://www.oxalya.xyz/oxelya-site-officiel/og-image.png",
         width: 1200,
         height: 630,
         alt: "Oxelya Site Officiel",
       },
     ],
   },
-  metadataBase: new URL("https://oxalya.xyz/oxelya-site-officiel"),
+  metadataBase: new URL("https://www.oxalya.xyz/oxelya-site-officiel"),
   alternates: {
-    canonical: "https://oxalya.xyz/oxelya-site-officiel",
+    canonical: "https://www.oxalya.xyz/oxelya-site-officiel",
   },
   icons: {
     icon: "/favicon.ico",
